@@ -1,0 +1,21 @@
+# --- Scala/SBT related ---
+target/
+project/target/
+.project
+.cache-main
+.cache-tests
+lib_managed/
+src_managed/
+.idea/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+logs/
+*.log
+.bloop/
+.metals/
+
+
+.notes/
+docker-compose.yml

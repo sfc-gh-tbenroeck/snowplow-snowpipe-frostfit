@@ -1,0 +1,30 @@
+version: '3'
+services:
+  micro:
+    container_name: spmcollector
+    build:
+      context: ./target/docker/stage
+    volumes:
+      - ./config:/config
+      - ./static-frontend/out:/static-frontend
+    restart: always
+    ports:
+      - "9090:9090"
+    environment:
+      SNOWPIPE_CLIENT_ACCOUNT: "wp48969.west-us-2.azure"
+      SNOWPIPE_CLIENT_USER: "tbenroeck"
+      SNOWPIPE_CLIENT_PRIVATE_KEY: "MIIEv-----NOT-REAL-------=="
+      SNOWPIPE_CLIENT_SCHEMA: "public"
+      SNOWPIPE_CLIENT_DATABASE: "sams"
+      SNOWPIPE_CLIENT_WAREHOUSE: "XSMALL"
+      SNOWPIPE_CLIENT_ROLE: "accountadmin"
+      SNOWPIPE_CLIENT_STREAMING_CLIENT: "streamingClient"
+      SNOWPIPE_EVENT_CHANNEL_NAME: "snowplowEvents"
+      SNOWPIPE_EVENT_CHANNEL_DATABASE: "sams"
+      SNOWPIPE_EVENT_CHANNEL_SCHEMA: "public"
+      SNOWPIPE_EVENT_CHANNEL_TABLE: "snowplowEvents"
+      SNOWPIPE_EVENT_CHANNEL_VARIANT_COLUMN: "eventJson"
+      SNOWPIPE_EVENT_CHANNEL_EVENT_FLAG_COLUMN: "isGoodRecord"
+      FLUSH_BUFFER_THRESHOLD: 3
+      FLUSH_TIME_INTERVAL_SECONDS: 60
+    command: "--collector-config /config/micro.conf --iglu /config/iglu.json"

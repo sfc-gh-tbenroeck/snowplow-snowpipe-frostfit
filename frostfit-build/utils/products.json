@@ -1,0 +1,264 @@
+[
+    {
+        "categories": [
+            "new arrivals",
+            "Womens",
+            "Jackets"
+        ],
+        "name": "IceFlow Jacquard-knit Sports Jacket",
+        "slug": "iceflow-jacquard-knit-sports-jacket",
+        "price": "88.99",
+        "image": "/products/iceflow-jacquard-knit-sports-jacket.png",
+        "description": "Introducing the IceFlow Jacquard-knit Sports Jacket, the perfect blend of style and performance. This jacket is designed for the modern woman who demands both comfort and fashion in her active wear. The jacquard-knit construction provides maximum flexibility and comfort, while the stylish design ensures you stand out from the crowd.\n\nThe IceFlow Jacquard-knit Sports Jacket is perfect for any outdoor activity, whether it's a morning run or an evening hike. The lightweight material keeps you cool and comfortable, while the snug fit ensures you stay protected from the elements. The jacket comes with a full-length zipper for easy on-and-off access, and two side pockets for carrying your essentials.\n\nThis jacket is part of our new arrivals collection and is available exclusively for women. It is part of the Jackets category and comes with a price of $88.99. The jacket features the IceFlow logo and is available in limited stock, with only 4 units currently available. Order now to add this stylish and functional sports jacket to your wardrobe!",
+        "brand": "IceFlow",
+        "currentInventory": 4,
+        "tags": [
+            "sports jacket",
+            "women's jacket",
+            "jacquard-knit",
+            "lightweight",
+            "flexible",
+            "stylish design",
+            "full-length zipper",
+            "side pockets",
+            "limited stock",
+            "outdoor activities"
+        ]
+    },
+    {
+        "categories": [
+            "new arrivals",
+            "Womens",
+            "Jackets"
+        ],
+        "name": "Breezeshield Sports Jacket",
+        "slug": "breezeshield-sports-jacket",
+        "price": "67.99",
+        "image": "/products/breezeshield-sports-jacket.png",
+        "description": "BreezeShield Sports Jacket is a perfect combination of style and function that will keep you looking great and feeling comfortable during your workouts. Made from lightweight and windproof fabric, this jacket is designed to provide you with maximum protection against the elements while you work up a sweat. Featuring a stand-up collar and zippered pockets, this jacket has a sleek and modern look that is perfect for any active woman. The high-quality fabric is fast-drying, so you don't have to worry about getting wet and uncomfortable during your workout. The jacket also has excellent breathability, ensuring that you stay cool and comfortable throughout your exercise routine.\n\nThe jacket has a slim fit design with a flattering shape that hugs your curves in all the right places, providing a comfortable fit and freedom of movement. The high waistband helps to keep the jacket securely in place, so you can focus on your workout without any distractions. With its sleek and modern design, our Women's Athletic Jacket is perfect for any activity, from running to hiking, cycling, or simply hitting the gym. It is versatile and stylish, making it perfect for both indoor and outdoor activities. So why wait? Get your hands on this amazing Women's Athletic Jacket today and take your workout to the next level!",
+        "brand": "Breezeshield",
+        "currentInventory": 4,
+        "tags": [
+            "sports jacket",
+            "women's jacket",
+            "windproof",
+            "lightweight",
+            "fast-drying",
+            "breathable",
+            "slim fit",
+            "high waistband",
+            "versatile",
+            "outdoor activities"
+        ]
+    }
+    {
+        "categories": [
+            "Mens",
+            "Jackets"
+        ],
+        "name": "Arctic Breeze Puffer Jacket",
+        "slug": "arctic-breeze-puffer-jacket",
+        "image": "/products/arctic-breeze-puffer-jacket.png",
+        "price": "139.99",
+        "description": "Stay warm and stylish in this padded short jacket with a jersey-lined hood and stand-up collar with a drawstring. The zip-down front, flap side pockets with press-stud, and one inner pocket provide ample storage space. Ribbing at the cuffs and hem ensures a comfortable and snug fit. The quilted lining provides extra warmth, making this jacket perfect for colder weather.",
+        "brand": "Frost Fit",
+        "currentInventory": 10,
+        "tags": [
+            "puffer jacket",
+            "men's jacket",
+            "short jacket",
+            "hooded jacket",
+            "lightweight",
+            "warm",
+            "zippered front",
+            "side pockets",
+            "ribbed cuffs",
+            "stylish"
+        ]
+    },
+    {
+        "categories": [
+            "Mens",
+            "Shorts",
+            "Trousers"
+        ],
+        "name": "Flex Comfort Lounge Shorts",
+        "slug": "flex-comfort-lounge-shorts",
+        "price": "49.99",
+        "description": "Stay comfortable and stylish with our Sweat Lounge Shorts. Made from soft sweatshirt fabric, these shorts feature an elasticated drawstring waist for a perfect fit, side pockets and a back pocket for storage, and ribbed hems for a snug fit. The soft brushed inside ensures ultimate comfort and relaxation, making them perfect for lounging or exercising.",
+        "brand": "Frost Fit",
+        "currentInventory": 15,
+        "tags": [
+            "lounge shorts",
+            "sweat shorts",
+            "men's shorts",
+            "elastic waistband",
+            "sweatshirt fabric",
+            "soft brushed inside",
+            "ribbed hems",
+            "comfortable fit",
+            "versatile"
+        ]
+    },
+    {
+        "categories": [
+            "Mens",
+            "Pants"
+        ],
+        "name": "Flex Comfort Sweatpants",
+        "slug": "flex-comfort-sweatpants",
+        "image": "/products/flex-comfort-sweatpants.png",
+        "price": "69.99",
+        "description": "Stay comfortable and stylish with our Flex Comfort Sweatpants. Made from soft sweatshirt fabric, these pants feature an elasticated drawstring waist for a perfect fit, side pockets and a back pocket for storage, and ribbed hems for a snug fit. The soft brushed inside ensures ultimate comfort and relaxation, making them perfect for lounging or exercising.",
+        "brand": "Frost Fit",
+        "currentInventory": 10,
+        "tags": [
+            "sweatpants",
+            "men's pants",
+            "elastic waistband",
+            "sweatshirt fabric",
+            "soft brushed inside",
+            "ribbed hems",
+            "comfortable fit",
+            "versatile",
+            "loungewear",
+            "exercise pants"
+        ]
+    },
+    {
+        "categories": [
+            "Womens",
+            "Sport",
+            "Tops"
+        ],
+        "name": "Eco-Dry Long-Sleeve Sports Top for Women",
+        "slug": "eco-dry-long-sleeve-sports-top-for-women",
+        "image": "/products/eco-dry-long-sleeve-sports-top-for-women.png",
+        "price": "59.99",
+        "description": "Achieve peak performance with our Eco-Dry Long-Sleeve Sports Top for Women. Made from fast-drying, breathable functional fabric, this top ensures maximum comfort during even the most intense workouts. The overlocked seams provide additional comfort, reducing chafing and irritation. Plus, some of the polyester content of the top is recycled, making it an eco-friendly choice for the environmentally conscious athlete. The top is designed to fit the female body, with a sleek and flattering cut that's perfect for any workout.",
+        "brand": "Frost Fit",
+        "currentInventory": 6,
+        "tags": [
+            "long-sleeve top",
+            "sports top",
+            "women's top",
+            "fast-drying",
+            "breathable",
+            "functional fabric",
+            "overlocked seams",
+            "eco-friendly",
+            "recycled polyester",
+            "comfortable fit"
+        ]
+    },
+    {
+        "categories": [
+            "Mens",
+            "Sport",
+            "Tops"
+        ],
+        "name": "Eco-Dry Long-Sleeve Sports Top for Men",
+        "slug": "eco-dry-long-sleeve-sports-top-for-men",
+        "image": "/products/eco-dry-long-sleeve-sports-top-for-men.png",
+        "price": "59.99",
+        "description": "Achieve peak performance with our Eco-Dry Long-Sleeve Sports Top. Made from fast-drying, breathable functional fabric, this top ensures maximum comfort during even the most intense workouts. The overlocked seams provide additional comfort, reducing chafing and irritation. Plus, some of the polyester content of the top is recycled, making it an eco-friendly choice for the environmentally conscious athlete.",
+        "brand": "Frost Fit",
+        "currentInventory": 8,
+        "tags": [
+            "long-sleeve top",
+            "sports top",
+            "men's top",
+            "fast-drying",
+            "breathable",
+            "functional fabric",
+            "overlocked seams",
+            "eco-friendly",
+            "recycled polyester",
+            "comfortable fit"
+        ]
+    },
+    {
+        "categories": ["Womens", "Jackets"],
+        "name": "Arctic Breeze Puffer Jacket for Women",
+        "slug": "arctic-breeze-puffer-jacket-for-women",
+        "image": "/products/arctic-breeze-puffer-jacket-for-women.png",
+        "price": "139.99",
+        "description": "Stay warm and stylish in this Women's Arctic Breeze Puffer Jacket, designed to fit the female form perfectly. The padded short jacket features a jersey-lined hood and stand-up collar with a drawstring, ensuring you're ready for any weather. The zip-down front, flap side pockets with press-stud, and one inner pocket provide ample storage space. Ribbing at the cuffs and hem ensures a comfortable and snug fit. The quilted lining provides extra warmth, making this jacket perfect for colder weather.",
+        "brand": "Frost Fit",
+        "currentInventory": 8,
+        "tags": [
+          "puffer jacket",
+          "women's jacket",
+          "short jacket",
+          "hooded jacket",
+          "lightweight",
+          "warm",
+          "zippered front",
+          "side pockets",
+          "ribbed cuffs",
+          "stylish"
+        ]
+      },
+      {
+        "categories": ["Womens", "Jackets", "Athletic Wear"],
+        "name": "Zephyr Windbreaker: Women's Lightweight Athletic Jacket with Zippered Pockets and Stand-Up Collar",
+        "slug": "zephyr-windbreaker-womens-lightweight-athletic-jacket-zippered-pockets-stand-up-collar",
+        "price": "79.99",
+        "image": "/products/zephyr-windbreaker-womens-lightweight-athletic-jacket-zippered-pockets-stand-up-collar.png",
+        "description": "Stay comfortable and stylish during your workouts with our Zephyr Windbreaker. Made from lightweight and windproof fabric, this jacket provides maximum protection against the elements while you work up a sweat. The stand-up collar and zippered pockets give the jacket a sleek and modern look that is perfect for any active woman. The high-quality fabric is fast-drying, so you don't have to worry about getting wet and uncomfortable during your workout. The jacket also has excellent breathability, ensuring that you stay cool and comfortable throughout your exercise routine.\n\nThe jacket has a slim fit design with a flattering shape that hugs your curves in all the right places, providing a comfortable fit and freedom of movement. The high waistband helps to keep the jacket securely in place, so you can focus on your workout without any distractions. With its sleek and modern design, our Zephyr Windbreaker is perfect for any activity, from running to hiking, cycling, or simply hitting the gym. It is versatile and stylish, making it perfect for both indoor and outdoor activities. So why wait? Get your hands on this amazing Women's Athletic Jacket today and take your workout to the next level!",
+        "brand": "Frost Fit",
+        "currentInventory": 5,
+        "tags": [
+          "women's athletic jacket",
+          "windbreaker",
+          "lightweight",
+          "zippered pockets",
+          "stand-up collar",
+          "fast-drying",
+          "breathable",
+          "slim fit",
+          "high waistband",
+          "versatile"
+        ]
+      },
+      {
+        "categories": ["Womens", "Activewear", "Pants"],
+        "name": "SereneFlow Yoga Pants: Women's Fast-Drying Pants with High Waistband and Side Pockets",
+        "slug": "sereneflow-yoga-pants-womens-fast-drying-pants-high-waistband-side-pockets",
+        "price": "69.99",
+        "image": "/products/sereneflow-yoga-pants-womens-fast-drying-pants-high-waistband-side-pockets.png",
+        "description": "Achieve the perfect balance of comfort and style with our SereneFlow Yoga Pants. Made from fast-drying fabric, these pants provide excellent moisture-wicking properties, keeping you dry and comfortable during your yoga sessions. The high waistband provides ample support and coverage, while the side pockets are perfect for holding your phone or other essentials.\n\nThe pants have a flattering design with a slim fit that hugs your curves in all the right places, providing a comfortable fit and freedom of movement. The high waistband helps to keep the pants securely in place, so you can focus on your yoga poses without any distractions. With its sleek and modern design, our SereneFlow Yoga Pants are perfect for any activity, from yoga to Pilates, stretching, or simply lounging around. They are versatile and stylish, making them perfect for both indoor and outdoor activities. So why wait? Get your hands on these amazing Women's Yoga Pants today and experience the ultimate in comfort and style!",
+        "brand": "Frost Fit",
+        "currentInventory": 8,
+        "tags": [
+          "women's yoga pants",
+          "fast-drying",
+          "high waistband",
+          "side pockets",
+          "moisture-wicking",
+          "slim fit",
+          "flattering design",
+          "versatile"
+        ]
+      },
+      {
+        "categories": ["Mens", "Womens", "Activewear", "Tops"],
+        "name": "FrostBite Sports Tee: Fast-Drying Snow Sports Top with Short Raglan Sleeves and Visible Seams",
+        "slug": "frostbite-sports-tee-fast-drying-snow-sports-top-short-raglan-sleeves-visible-seams",
+        "price": "49.99",
+        "image": "/products/frostbite-sports-tee-fast-drying-snow-sports-top-short-raglan-sleeves-visible-seams.png",
+        "description": "Get ready to conquer the slopes with our FrostBite Sports Tee. Made from fast-drying, functional fabric, this snow sports top is designed to keep you comfortable and dry during your snowboarding or skiing adventures. The short raglan sleeves and visible seams provide a stylish touch, while the loose fit ensures maximum freedom of movement.\n\nThe FrostBite Sports Tee has a versatile design that makes it perfect for any activity, from snow sports to hiking, running, or simply hitting the gym. The fast-drying fabric helps to wick away moisture, keeping you cool and comfortable throughout your workout. With its sleek and modern design, our FrostBite Sports Tee is perfect for both indoor and outdoor activities. It is available for both men and women and comes in a wide range of sizes. So why wait? Get your hands on this amazing snow sports top today and take your performance to the next level!",
+        "brand": "Frost Fit",
+        "currentInventory": 12,
+        "tags": [
+          "snow sports top",
+          "fast-drying",
+          "functional fabric",
+          "short raglan sleeves",
+          "visible seams",
+          "loose fit",
+          "freedom of movement",
+          "versatile"
+        ]
+      }
+]
