@@ -85,32 +85,10 @@ private[micro] object Routing {
             getFromDirectory(s"/static-frontend/product/$productName.html")
           }
         }
-      } ~ pathPrefix("_next" / "data" / Segment) { segment =>
-        path(Segment) { remainingPath =>
-          parameter("name".optional) { nameParam =>
-            getOrHead {
-              concat(
-                extractRequest { request =>
-                  if (request.uri.path.endsWith(".json")) {
-                    nameParam match {
-                      case Some(name) =>
-                        getFromFile(
-                          s"/static-frontend/_next/data/$segment/$remainingPath.json?name=$name"
-                        )
-                      case None =>
-                        getFromFile(
-                          s"/static-frontend/_next/data/$segment/$remainingPath.json"
-                        )
-                    }
-                  } else {
-                    getFromFile(
-                      s"/static-frontend/_next/data/$segment/$remainingPath"
-                    )
-                  }
-                }
-              )
-            }
-          }
+      }
+      pathPrefix("_next") {
+        getOrHead {
+          getFromDirectory("/static-frontend/_next")
         }
       } ~ getFromDirectory("/static-frontend") ~ pathPrefix("status") {
         get {

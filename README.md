@@ -31,3 +31,7 @@ Run `sbt "project micro" docker:stage && docker compose build`
 
 # Run Container
  Run `docker compose up`
+
+
+# Known Issues
+ - HEAD request into _next/data like `_next/data/io5So6uJ71bUgvte5ZbL9/product/frostchill-snow-tee.json?name=frostchill-snow-tee` are returning a 404.  I've tried several way to fix the route in `src/main/scala/com.snowplowanalytics.snowplow.micro/Routing.scala`.
