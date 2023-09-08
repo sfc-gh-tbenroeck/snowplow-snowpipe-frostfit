@@ -29,6 +29,25 @@ const Cart = ({ context }) => {
     if (item.quantity === 1) return
     item.quantity = item.quantity - 1
     setItemQuantity(item)
+    window.snowplow('trackSelfDescribingEvent', {
+      event: {
+        schema: 'iglu:test.example.iglu/cart_action_event/jsonschema/1-0-0',
+        data: {
+          type: 'remove',
+        },
+      },
+      context: [
+        {
+          schema: 'iglu:test.example.iglu/product_entity/jsonschema/1-0-0',
+          data: {
+            sku: item.id,
+            name: item.name,
+            price: parseFloat(item.price),
+            quantity: parseInt(item.quantity)
+          }
+        }
+      ]
+    });
   }
 
   if (!renderClientSideComponent) return null

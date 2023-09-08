@@ -36,6 +36,8 @@ lazy val dependencies = Seq(
 libraryDependencies += "com.google.code.gson" % "gson" % "2.8.8"
 libraryDependencies += "net.snowflake" % "snowflake-ingest-sdk" % "2.0.2"
 libraryDependencies += "com.fasterxml.jackson.core" % "jackson-databind" % "2.12.4"
+libraryDependencies += "com.typesafe.akka" %% "akka-http" % "10.2.4"
+
 
 lazy val exclusions = Seq(
   excludeDependencies ++= Dependencies.exclusions

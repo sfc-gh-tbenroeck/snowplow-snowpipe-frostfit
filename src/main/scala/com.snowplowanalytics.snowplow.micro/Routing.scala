@@ -13,6 +13,9 @@
 package com.snowplowanalytics.snowplow.micro
 
 import akka.http.scaladsl.server.{Route, RouteResult}
+import org.slf4j.LoggerFactory
+
+import akka.http.scaladsl.server._
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.model.HttpMethods._
 import akka.http.scaladsl.model.ContentTypes
@@ -49,6 +52,8 @@ import CirceSupport._
   */
 private[micro] object Routing {
 
+  lazy val logger = LoggerFactory.getLogger(getClass())
+
   /** Create `Route` for Snowplow Micro, with the endpoints of the collector to
     * receive tracking events and the endpoints to query the validated events.
     */
@@ -72,25 +77,41 @@ private[micro] object Routing {
       override def healthService = health
     }.collectorRoute
 
+    val logRequestUri: Directive[Unit] = extractRequestContext.flatMap { ctx =>
+      logger.info(s"Request URI: ${ctx.request.uri}")
+      pass
+    }
     withCors(c) {
-      val getOrHead = get | head
 
+      /** Start Static Site Serving * */
+      /** Some hardcoded routes specific for FrostFit * */
       pathEndOrSingleSlash {
-        getOrHead {
-          getFromFile("/static-frontend/index.html")
-        }
+        getFromFile("/static-frontend/index.html")
       } ~ pathPrefix("product") {
         path(Segment) { productName =>
-          getOrHead {
+          get {
+            logger.info(s"pathPrefix - product > ${productName}")
             getFromDirectory(s"/static-frontend/product/$productName.html")
           }
         }
-      }
-      pathPrefix("_next") {
-        getOrHead {
-          getFromDirectory("/static-frontend/_next")
+      } ~ pathPrefix("_next") {
+        concat(
+          get {
+            getFromDirectory("/static-frontend/_next")
+          },
+          head {
+            extractUnmatchedPath { path =>
+              getFromFile(s"/static-frontend/_next$path")
+            }
+          }
+        )
+      } ~ pathPrefix("") {
+        get {
+          getFromDirectory("/static-frontend")
         }
-      } ~ getFromDirectory("/static-frontend") ~ pathPrefix("status") {
+
+        /** End Static Site Serving * */
+      } ~ pathPrefix("status") {
         get {
           complete(StatusCodes.OK, "Server is running!")
         }
@@ -141,6 +162,7 @@ private[micro] object Routing {
         }
       }
     } ~ collectorRoutes
+
   }
 
   /** Wrap a Route with CORS header handling.
