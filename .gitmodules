@@ -4,3 +4,6 @@
 [submodule "stream-collector"]
 	path = stream-collector
 	url = https://github.com/snowplow/stream-collector.git
+[submodule "frostfit-build"]
+	path = frostfit-build
+	url = git@github.com:sfc-gh-tbenroeck/frostfit-build.git

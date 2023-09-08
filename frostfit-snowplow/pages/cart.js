@@ -29,6 +29,8 @@ const Cart = ({ context }) => {
     if (item.quantity === 1) return
     item.quantity = item.quantity - 1
     setItemQuantity(item)
+
+    // Snowplow code *************************************************
     window.snowplow('trackSelfDescribingEvent', {
       event: {
         schema: 'iglu:test.example.iglu/cart_action_event/jsonschema/1-0-0',
@@ -48,6 +50,7 @@ const Cart = ({ context }) => {
         }
       ]
     });
+    //**************************************************************************************************
   }
 
   if (!renderClientSideComponent) return null
