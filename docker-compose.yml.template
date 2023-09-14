@@ -6,7 +6,7 @@ services:
       context: ./target/docker/stage
     volumes:
       - ./config:/config
-      - ./static-frontend/out:/static-frontend
+      - ./frostfit-build/out:/static-frontend
     restart: always
     ports:
       - "9090:9090"

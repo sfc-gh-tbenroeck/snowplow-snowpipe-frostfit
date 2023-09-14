@@ -1,3 +1,13 @@
+### Getting started
+
+1. Clone the project and update git submodules
+
+```sh
+git clone git@github.com:sfc-gh-tbenroeck/snowplow-snowpipe-frostfit.git
+git submodule init
+git submodule update
+```
+
 # Optionally open the folder in the .devcontainer
 - Install the [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) extension
 - Press F1 and select `Dev Containers: Open Folder In Container`
@@ -30,11 +40,6 @@ Rename docker-compose.yml.template to docker-compose.yml and update the environm
 To change the frontend website, modify the volume mapping of `/static-frontend`
 
 # To use Frostfit as the frontend
-- Frostfit-build has been added as a git submodule.  Run the following to get a local copy
-  ```
-  git submodule init
-  git submodule update
-  ```
 - Frostfit-build doesn't have Snowplow tracking.  You can overwrite the files in Frostfit-build with the files in frostfit-snowplow to add basic tracking.
   ```
   cp -r frostfit-snowplow/* frostfit-build/
